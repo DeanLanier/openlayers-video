@@ -1,0 +1,12 @@
+div:not(:last-child) {
+  margin-bottom: 10px;
+}
+.ol-map {
+  width: 400px;
+  height: 400px;
+  background-color: grey;
+}
+
+.controls {
+
+}

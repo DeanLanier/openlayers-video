@@ -1,0 +1,16 @@
+<div class="ol-map"></div>
+<div class="controls">
+  <button mat-raised-button color="primary" (click)="togglePlayback()">{{ isPlaying ? "Pause" : "Play" }}</button>
+  <button mat-raised-button color="default" (click)="resetView()">Reset View</button>
+</div>
+
+<form>
+  <mat-form-field>
+    <input matInput placeholder="Degrees" value="0"/>
+  </mat-form-field>
+  <button mat-raised-button color="accent">Rotate</button>
+</form>
+<!--<div>
+  <button mat-raised-button color="accent">Rotate</button>
+  <button mat-raised-button color="accent">Rotate</button>
+</div>-->
